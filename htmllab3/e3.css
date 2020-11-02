@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.loginBox{
+    text-align: center;
+    width:25%;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top:20%
+}
+
+.outLogin a{
+    color:white;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+i{
+    margin-right: 7px;
+}
+.fb{
+    background-color: #3b5999;
+}
+.tw{
+    background-color: #00afed;
+}
+
+
+.or{
+    margin: 20px auto 20px auto;;
+}
+.or span{
+    /* display: inline-block; */
+    padding: 3px;
+    background-color:#cccccc;
+    border-radius: 50%;
+}
+
+form >*{
+    display: block;
+    width:100%
+  }
+  input{
+    padding: 5px;;
+    margin-bottom: 7px;
+}
+
+  .checkboxBody span{
+    float:right;
+  }
+  .checkboxBody input, .checkboxBody label{
+      float:left;
+  }
+.submit{
+    background-color: #3b5999;
+    color:white;
+    width:100%;
+}
+.signup a{
+    color:#00afed;
+    text-decoration: none;
+}
+
+
+

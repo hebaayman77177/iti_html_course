@@ -1,0 +1,53 @@
+
+body{
+    background-image: url("./bgf5.png");
+    text-align: center;
+}
+
+.header * {
+  color: #7aa305;
+}
+.header span {
+  color: #926d40;
+}
+.header a {
+  text-decoration: none;
+}
+
+
+table{
+    width:"60%" ;
+    margin-right: 20%;
+    margin-left:20%;
+}
+
+td{
+    text-align: center;
+}
+img{
+    width:200px ;
+    height:150px;
+}
+
+td p{
+    color:#926d40;
+}
+td p:last-child{
+    color:#9ab144;
+}
+
+
+.footer p:first-child{
+    color:#9ab144;
+    font-size:18px;
+}
+
+.footer p:last-child{
+    color:#926d40;
+}
+
+
+hr {
+    border-top: dotted 5px  #926d40;
+
+  }

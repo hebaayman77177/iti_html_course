@@ -1,0 +1,30 @@
+table {
+  background-color: #434343;
+  width: 60%;
+  text-align: center;
+  margin: 30px 20% 0 20%;
+}
+
+tr {
+  background-color: #2c2c2c;
+}
+
+td {
+  text-align: "center";
+  width: "20%";
+}
+
+.chooseUP {
+  color: #1f5f69;
+  font-size: 25px;
+}
+
+.firstRow div:first-child {
+  background-color: #01b8e2;
+  color: white;
+  font-size: 27px;
+}
+
+.firstRow div:last-child {
+  background-color: black;
+}

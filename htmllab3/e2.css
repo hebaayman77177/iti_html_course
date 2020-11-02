@@ -1,0 +1,55 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+
+.headerMain {
+  background-color: #f0f0f0;
+  color: #cbbe32;
+  text-decoration: underline;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+/* .sites{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.userComm p{
+    background-color: #ffffc8;
+    margin: 20px 40px;
+}
+.site {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.site span {
+  background-color: #f8c763;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.site img {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+
+.links a{
+    display: block;
+    color:#cbbe32
+}
+
+

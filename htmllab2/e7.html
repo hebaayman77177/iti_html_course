@@ -1,154 +1,193 @@
 <html>
-    <head>
-        <title>pract 1 </title>
-    </head>
-    <body >
-        <div style=" height: 150px;width: 100%; background:url('hfp7.png') no-repeat ;background-size: 100% 100%;" >
-        </div>
-        <br/>
-        <br/>
-        <!-- <div align="center" style="width:40%;  position: relative;"> -->
-        <form action="#" method="post" width="40%">
-            <table  align="center" cellspacing="10">
-                <tr>
-                    <td colspan="3">
-                        <img src="i1fp7.png" width="50" height="36"/>
-                        <br/>
-                        <font color="#005e37" size="5"><b>non-profit organization</b></font>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                       <font color="gray"> name:</font>
-                       <br/>
-                       <input type="text" name="name" size="60%" style="margin-right:30%;"/>
-                    </td>
-                    <td >
-                        <font color="gray"> phone number:</font>
-                        <br/>
-                        <input type="text" name="phone" size="60%"/>
-                     </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                       <font color="gray"> street address:</font>
-                       <br/>
-                       <input type="text" name="address" size="100%" style="margin-right:30%;"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td >
-                       <font color="gray"> city:</font>
-                       <br/>
-                       <input type="text" name="city" size="60%"/>
-                    </td>
-                    <td >
-                        <font color="gray"> state:</font>
-                        <br/>
-                        <input type="text" name="state" size="60%"/>
-                     </td>
-                     <td >
-                        <font color="gray"> zip code:</font>
-                        <br/>
-                        <input type="text" name="zip" size="60%"/>
-                     </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <hr style="border-top: dotted 2px; color:#95ca57" />
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <img src="i2fp7.png" width="50" height="36"/>
-                        <br/>
-                        <font color="#005e37" size="5"><b>sponsor contact information</b></font>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                       <font color="gray"> first name:</font>
-                       <br/>
-                       <input type="text" name="fname" size="60%" style="margin-right:30%;"/>
-                    </td>
-                    <td >
-                        <font color="gray"> last name:</font>
-                        <br/>
-                        <input type="text" name="lname" size="60%"/>
-                     </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                       <font color="gray"> phone number:</font>
-                       <br/>
-                       <input type="text" name="sponerPhoneNumber" size="60%" style="margin-right:30%;"/>
-                    </td>
-                    <td >
-                        <font color="gray"> email address:</font>
-                        <br/>
-                        <input type="text" name="sponserEmailAdress" size="60%"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                       <font color="gray"> street address:</font>
-                       <br/>
-                       <input type="text" name="sponserAddress" size="100%" style="margin-right:30%;"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td >
-                       <font color="gray"> city:</font>
-                       <br/>
-                       <input type="text" name="sponserCity" size="60%"/>
-                    </td>
-                    <td >
-                        <font color="gray"> state:</font>
-                        <br/>
-                        <input type="text" name="sponserState" size="60%"/>
-                     </td>
-                     <td >
-                        <font color="gray"> zip code:</font>
-                        <br/>
-                        <input type="text" name="sponserZip" size="60%"/>
-                     </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <hr style="border-top: dotted 2px; color:#95ca57" />
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <img src="i3fp7.png" width="50" height="36"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                       <font color="gray"> donation amount:</font>
-                       <br/>
-                       <br/>
-                       <select name="donationAmount" style="width:40%;"> 
-                            <option val="1" selected>1</option>
-                            <option val="10">10</option>
-                            <option val="100">100</option>
-                            <option val="1000">1000</option>
-                       </select>
-                    </td>
-                    <td >
-                        <font color="gray"> payment method:</font>
-                        <br/>
-                        <br/>
-                        <select name="paymentMethod" style="width:80%;"> 
-                            <option val="paypal">paypal</option>
-                            <option val="fawry" selected>fawry</option>
-                            <option val="mobile">mobile</option>
-                      </select>
-                     </td>
-                </tr>
-            </table>
-        </form>
+  <head>
+    <title>pract 1</title>
+  </head>
+  <body>
+    <br />
+    <br />
+    <!-- <div align="center" style="width:40%;  position: relative;"> -->
+    <form action="#" method="post" width="40%">
+      <table align="center" cellspacing="10" width="100%">
+        <tr>
+          <td colspan="3">
+            <div
+              style="
+                height: 150px;
+                width: 100%;
+                background: url('hfp7.png') no-repeat;
+                background-size: 100% 100%;
+              "
+            ></div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <img src="i1fp7.png" width="50" height="36" />
+            <br />
+            <font color="#005e37" size="5"><b>non-profit organization</b></font>
+          </td>
+        </tr>
+        <tr>
+          <td >
+            <font color="gray"> name:</font>
+            <br />
+            <input
+              type="text"
+              name="name"
+              size="60%"
+              style="margin-right: 30%"
+            />
+          </td>
+          <td colspan="2">
+            <font color="gray"> phone number:</font>
+            <br />
+            <input type="text" name="phone" size="60%" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <font color="gray"> street address:</font>
+            <br />
+            <input
+              type="text"
+              name="address"
+              style="margin-right: 30%; width:100%"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <font color="gray"> city:</font>
+            <br />
+            <input type="text" name="city" size="60%" />
+          </td>
+          <td>
+            <font color="gray"> state:</font>
+            <br />
+            <input type="text" name="state" size="60%" />
+          </td>
+          <td>
+            <font color="gray"> zip code:</font>
+            <br />
+            <input type="text" name="zip" size="60%" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr style="border-top: dotted 2px; color: #95ca57" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <img src="i2fp7.png" width="50" height="36" />
+            <br />
+            <font color="#005e37" size="5"
+              ><b>sponsor contact information</b></font
+            >
+          </td>
+        </tr>
+        <tr>
+          <td >
+            <font color="gray"> first name:</font>
+            <br />
+            <input
+              type="text"
+              name="fname"
+              size="60%"
+              style="margin-right: 30%"
+            />
+          </td>
+          <td>
+            <font color="gray" colspan="2"> last name:</font>
+            <br />
+            <input type="text" name="lname" size="60%" />
+          </td>
+        </tr>
+        <tr>
+          <td >
+            <font color="gray"> phone number:</font>
+            <br />
+            <input
+              type="text"
+              name="sponerPhoneNumber"
+              size="60%"
+              style="margin-right: 30%"
+            />
+          </td>
+          <td>
+            <font color="gray" colspan="2"> email address:</font>
+            <br />
+            <input type="text" name="sponserEmailAdress" size="60%" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <font color="gray"> street address:</font>
+            <br />
+            <input
+              type="text"
+              name="sponserAddress"
+              style="margin-right: 30%; width:100%"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <font color="gray"> city:</font>
+            <br />
+            <input type="text" name="sponserCity" size="60%" />
+          </td>
+          <td>
+            <font color="gray"> state:</font>
+            <br />
+            <input type="text" name="sponserState" size="60%" />
+          </td>
+          <td>
+            <font color="gray"> zip code:</font>
+            <br />
+            <input type="text" name="sponserZip" size="60%" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr style="border-top: dotted 2px; color: #95ca57" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <img src="i3fp7.png" width="50" height="36" />
+          </td>
+        </tr>
+        <tr>
+          <td >
+            <font color="gray"> donation amount:</font>
+            <br />
+            <br />
+            <select name="donationAmount" style="width: 100%">
+              <option val="1" selected>1</option>
+              <option val="10">10</option>
+              <option val="100">100</option>
+              <option val="1000">1000</option>
+            </select>
+          </td>
+          <td colspan="2">
+            <font color="gray"> payment method:</font>
+            <br />
+            <br />
+            <select name="paymentMethod" style="width: 50%">
+              <option val="paypal">paypal</option>
+              <option val="fawry" selected>fawry</option>
+              <option val="mobile">mobile</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" bgcolor="#95ca57">
+            <input type="submit" value="Submit" style="height: 40px; margin-top: 7px; margin-bottom:7px; margin-left: 15px;" />
+          </td>
+        </tr>
+      </table>
+    </form>
     <!-- </div> -->
-        <a href="e2.html">next</a>
-    </body>
+  </body>
 </html>
